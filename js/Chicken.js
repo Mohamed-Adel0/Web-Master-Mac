@@ -3,25 +3,25 @@ let Burger = [
     id: 5,
     title: "Individual Meals",
     Sallary: "7.99$",
-    image: "../pictures/image12.png",
+    image: "./pictures/image12.png",
   },
   {
     id: 6,
     title: "Sandwich Meals",
     Sallary: "8.99$",
-    image: "../pictures/image13.png",
+    image: "./pictures/image13.png",
   },
   {
     id: 7,
     title: "Sharing Meals",
     Sallary: "12.99$",
-    image: "../pictures/image15.png",
+    image: "./pictures/image15.png",
   },
   {
     id: 8,
     title: "Family Meals",
     Sallary: "15.99%",
-    image: "../pictures/image16.png",
+    image: "./pictures/image16.png",
   },
 ];
 // This is for The URL element so that if it changges a specific action is executed
