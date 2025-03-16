@@ -13,7 +13,7 @@ This project was designed and developed upon request from **Web-Master**, a comp
 
 This project is part of my **Internship** at **Web-Master**, where I strive to apply best practices in front-end development. Feel free to explore the code, and any feedback or contributions are welcome! 🚀  
 
-🔗 **Live Website:** [Insert Link Here]  
+🔗 **Live Website:** https://mohamed-adel0.github.io/Web-Master-Mac/
 
 ![image](https://github.com/user-attachments/assets/5f60c4ad-74f9-4fe5-a791-22d79637227f)
 
