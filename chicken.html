@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Interior</title>
+  <!-- Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" 
+  integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" 
+  crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <!-- Tailwind-Css -->
+  <link rel="stylesheet" href="./style/style.css">
+  <link rel="stylesheet" href="src/output.css">
+</head>
+<body>
+    <div class="hero w-full h-[100vh] flex justify-center items-center bg-[#ffca40] flex-col">
+      <div class="container w-[90%] h-[90%] bg-[#f8f8f7] rounded-[10px] flex flex-col justify-center items-center relative">
+        <!-- Title Page & Logo Website -->
+        <div class="title h-[15%] w-[95%] flex justify-between items-center">
+          <h1 class="text-5xl flex gap-5"><span class="text-[#ffca40]">Mc</span>Donald's</h1>
+          <form action="" class="w-[25%] h-[35%]">
+            <input id="search" class="border-1 w-full h-full !px-5 rounded-[10px] text-[13px] outline-amber-300 border-amber-300" type="search" placeholder="Search">
+          </form>
+          <div class="img w-[15%] h-[100%] flex justify-center items-center">
+            <img class="h-[50px] w-[70px]"  src="./pictures/logo1.png" alt="">
+          </div>
+        </div>
+        <!-- Info navbar & card's -->
+        <div class="cards h-[85%] w-full flex flex-row">
+          <header class="w-[20%] h-full border-r-1 border-amber-200">
+            <nav class="h-full">
+              <ul class="flex flex-col h-[50%] justify-evenly items-center" >
+                <li class="h-[22%] w-[90%] rounded-[10px] flex"><a class="flex gap-5 justify-start items-center w-full h-full" href="/index.html"><img class="w-[35px] h-[35px] object-cover" src="./pictures//image14.png" alt="">  <span>Burgers</span></a></li>
+                <li id="chicken" class="h-[22%] w-[90%] rounded-[10px] flex"><a class="flex gap-5 justify-start items-center w-full h-full" href="#"><img class="w-[35px] h-[35px] object-fill" src="./pictures/image16.png" alt="">  <span>Chicken</span></a></li>
+                <li class="h-[22%] w-[90%] rounded-[10px] flex"><a class="flex gap-5 justify-start items-center w-full h-full" href="#"><img class="w-[35px] h-[35px] object-cover" src="./pictures//logo-drink.png" alt="">  <span>Drinks</span></a></li>
+                <li class="h-[22%] w-[90%] rounded-[10px] flex"><a class="flex gap-5 justify-start items-center w-full h-full" href="#"><img class="w-[35px] h-[35px] object-cover" src="./pictures//logo-Desserts.png" alt="">  <span>Desserts</span></a></li>
+              </ul>
+              <h3 class="!px-[20px] !py-[15px]"><span>Other</span></h3>
+              <ul class="w-[85%] !m-auto">
+                <li id="iconCart" class="h-[22%] w-[90%] rounded-[10px] flex relative"><button class="flex gap-5 justify-start items-center w-full h-full cursor-pointer"><img class="w-[25px] h-[25px] object-fill" src="./pictures/Vector.png" alt="">  <span>Cart</span> <span id="total" class="bg-[#ffca40] rounded-[50%] w-[25px] flex justify-center items-center text-[#fff] absolute top-[-80%] left-[15%]"></span></button></li>
+              </ul>
+            </nav>
+          </header>
+          <div class="cards-eat w-[80%] h-full">
+            <div class="card test w-full h-full flex flex-col justify-center items-center">
+              <div class="card hero-image w-full h-full flex flex-col justify-center items-center flex-wrap" id="hero-image">
+              </div>
+              <!-- Here Related By Card's Products -->
+              <div id="box-img" class="box-img w-full h-[35%] flex flex-row justify-start flex-wrap gap-5">
+              </div>
+            </div>
+          </div>
+          </div>
+          <div id="hero-cart" class="cart w-[100%] h-[100%] rounded-[10px] absolute right-0 bg-[#1f1e1e79] flex flex-row justify-between items-start gap-5">
+            <button id="closeCart" class="w-[5%] h-[15%] cursor-pointer text-[#fff] text-2xl">X</button>
+            <div id="Cart" class="cards flex flex-col justify-start items-center h-[100%] w-[45%] bg-[#fff] ">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+   <script src="js/Chicken.js"></script>
+</body>
+</html>
