@@ -3,25 +3,25 @@ let Burger = [
     id: 1,
     title: "Hamburger",
     Sallary: "5.99$",
-    image: "../pictures/Burgars.png",
+    image: "./pictures/Burgars.png",
   },
   {
     id: 2,
     title: "CheeseBurger",
     Sallary: "4.99$",
-    image: "../pictures/McVeggie-Burger.png",
+    image: "./pictures/McVeggie-Burger.png",
   },
   {
     id: 3,
     title: "Big Burger",
     Sallary: "7.99$",
-    image: "../pictures/BigBurger.png",
+    image: "./pictures/BigBurger.png",
   },
   {
     id: 4,
     title: "Superstars",
     Sallary: "9.99%",
-    image: "../pictures/TabelBurger.jpg",
+    image: "./pictures/TabelBurger.jpg",
   },
 ];
 const getLastSegment = () => {
